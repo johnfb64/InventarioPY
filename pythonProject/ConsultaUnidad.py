@@ -22,7 +22,9 @@ class ConsultaUnidad:
                 print(f'Cantidad: ', regs[4])
                 print(f'Ubicación: ', regs[6])
                 print(f'Precio: ', regs[5])
+
                 print('#####################################################')
+
     #e guarda error
     except Exception as e:
         print(f'Ocurrio un error: {e}')

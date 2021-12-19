@@ -12,6 +12,7 @@ class ConsultaUnidad:
 
             with conn.cursor() as curs:
                 qProducto = "SELECT * FROM Legos WHERE iniciales = %s"
+                
                 entrada = input('Indique las iniciales del producto: ')
                 curs.execute(qProducto, (entrada,))
                 regs = curs.fetchone()

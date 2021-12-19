@@ -22,9 +22,7 @@ class ConsultaUnidad:
                 print(f'Cantidad: ', regs[4])
                 print(f'Ubicación: ', regs[6])
                 print(f'Precio: ', regs[5])
-
-                print('#####################################################')
-
+                print(f'se debe tener en cuenta que la franquicia {regs[1]}, es una colección de solo 8 figuras')
     #e guarda error
     except Exception as e:
         print(f'Ocurrio un error: {e}')
